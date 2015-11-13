@@ -6,7 +6,7 @@
 <?php if( dopt('d_tqq_b') ) echo '<a  href="'.dopt('d_tqq').'" rel="external nofollow" title="腾讯微博" target="_blank"><i class="tencentweibo fa fa-tencent-weibo"></i></a>'; ?>
 <?php if( dopt('d_twitter_b') ) echo '<a href="'.dopt('d_twitter').'" rel="external nofollow" title="Twitter" target="_blank"><i class="twitter fa fa-twitter"></i></a>'; ?>
 <?php if( dopt('d_facebook_b') ) echo '<a href="'.dopt('d_facebook').'" rel="external nofollow" title="Facebook" target="_blank"><i class="facebook fa fa-facebook"></i></a>'; ?>
-<?php if( dopt('d_weixin_b') ) echo '<a class="weixin"><i class="weixins fa fa-weixin"></i><div class="weixin-popover"><div class="popover bottom in"><div class="arrow"></div><div class="popover-title">'.dopt('d_weixin').'</div><div class="popover-content">'?><img src="<?php bloginfo('template_url')?>/img/weixin.gif" ></div></div></div></a>
+<?php if( dopt('d_weixin_b') ) echo '<a class="weixin"><i class="weixins fa fa-weixin"></i><div class="weixin-popover"><div class="popover bottom in"><div class="arrow"></div><div class="popover-title">'.dopt('d_weixin').'</div><div class="popover-content">'?><img src="http://yinzhaolong.com/wp-content/uploads/2015/04/weixin-1024x1024.gif" ></div></div></div></a>
 <?php if( dopt('d_emailContact_b') ) echo '<a href="'.dopt('d_emailContact').'" rel="external nofollow" title="Email" target="_blank"><i class="email fa fa-envelope-o"></i></a>'; ?>
 <?php if( dopt('d_qqContact_b') ) echo '<a href="'.dopt('d_qqContact').'" rel="external nofollow" title="联系QQ" target="_blank"><i class="qq fa fa-qq"></i></a>'; ?>
 <?php echo'<a href="'.dopt('d_rss').'" rel="external nofollow" target="_blank"  title="订阅本站"><i class="rss fa fa-rss"></i></a>'; ?>
